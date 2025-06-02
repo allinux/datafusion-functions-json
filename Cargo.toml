@@ -12,7 +12,7 @@ rust-version = "1.82.0"
 
 [dependencies]
 datafusion = { git = "https://github.com/allinux/datafusion.git", rev = "1a24d29bb992f8b71c3fdceb45208707d172d0af", default-features = false }
-jiter = { git = "https://github.com/allinux/jiter.git", rev = "5f6e6732a3b27d6e5197d2965638b2e5ce09a6de" }
+jiter = "0.9"
 paste = "1"
 log = "0.4"
 
